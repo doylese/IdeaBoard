@@ -50,7 +50,7 @@ class IdeaBoard(QWidget):
                 return
 
         # User selects text or image to add
-        ideaType, ok = QInputDialog.getItem(self, "Select Idea Type", "Choose the type of idea you want to add:", ["Text", "Image"], 0, False)
+        ideaType, ok = QInputDialog.getItem(self, "Select Idea Type", "Choose the type of idea you want to add. This should take only a second to load: ", ["Text", "Image"], 0, False)
         if ok and ideaType:
             sectionName, ok = QInputDialog.getItem(self, "Select Section", "Choose the section:", list(self.sections.keys()), 0, False)
             if ok and sectionName:
