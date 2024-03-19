@@ -1,0 +1,17 @@
+{
+    "Seans idea board": {
+        "name": "Seans idea board",
+        "sections": {
+            "Test": [
+                {
+                    "type": "text",
+                    "content": "Text idea"
+                },
+                {
+                    "type": "image",
+                    "content": "C:/Users/hamme/Downloads/DSCF8907-min.jpg"
+                }
+            ]
+        }
+    }
+}

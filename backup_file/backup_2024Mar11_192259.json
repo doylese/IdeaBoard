@@ -1,0 +1,13 @@
+{
+    "Test": {
+        "name": "Test",
+        "sections": {
+            "Section 1": [
+                {
+                    "type": "text",
+                    "content": "Text example 1"
+                }
+            ]
+        }
+    }
+}
